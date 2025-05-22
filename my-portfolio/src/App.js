@@ -1,9 +1,18 @@
 import React from 'react';
+import Hero from './Hero';
+import Projects from './Projects';
+import Skills from './Skills';
+import About from './About';
+import Contact from './Contact';
 
 function App() {
   return (
-    <div className="bg-indigo-600 text-white h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Tailwind is ALIVE! 🎉</h1>
+    <div className="min-h-screen bg-black text-white">
+      <Hero />
+      <Projects />
+      <Skills />
+      <About />
+      <Contact />
     </div>
   );
 }
