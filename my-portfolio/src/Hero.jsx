@@ -1,5 +1,7 @@
 import React from 'react';
 import './Hero.css';
+import BubbleText from './BubbleText';
+
 
 export default function Hero() {
   return (
@@ -15,7 +17,7 @@ export default function Hero() {
 
       {/* Glass Card Content */}
       <div className="hero-card">
-        <h1 className="hero-title">Valeria Vega Herrera</h1>
+<BubbleText text={`Valeria Vega\nHerrera`} />
         <p className="hero-subtitle">👋 Hi, I'm Valeria Vega Herrera</p>
         <p className="hero-subtitle">A Junior Developer that loves creativity ✨</p>
         <p className="hero-funfact">

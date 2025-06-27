@@ -1,0 +1,16 @@
+.hoverText {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  color: #aab3ff;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.hoverText span {
+  display: inline-block;
+  transition: font-weight 0.35s, color 0.35s;
+  white-space: pre;
+  cursor: default;
+}
