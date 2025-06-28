@@ -1,0 +1,32 @@
+.hoverText {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  color: transparent;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #06b6d4, #8b5cf6); /* You can tweak this */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hoverText span {
+  display: inline-block;
+  transition: font-weight 0.35s, color 0.35s;
+  white-space: pre;
+  cursor: default;
+}
+
+/* Hovered letters override gradient */
+.hoverText span.hovered {
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: #e0e7ff;
+  font-weight: 700;
+}
+
+.hoverText span.hovered-sibling {
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: #cbd5e1;
+  font-weight: 600;
+}
