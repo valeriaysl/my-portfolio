@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "cd my-portfolio && npm start",
+    "build": "cd my-portfolio && npm run build"
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0"
+  }
+}
