@@ -7,9 +7,7 @@ import {
   Code,
   Cpu,
   Layout,
-  Hammer,
   SquareChartGantt,
-  Lock,
 } from 'lucide-react';
 
 const TECH_META = {
