@@ -4,6 +4,7 @@
     "build": "cd my-portfolio && npm run build"
   },
   "dependencies": {
+    "cross-env": "^10.1.0",
     "lucide-react": "^0.577.0"
   }
 }
