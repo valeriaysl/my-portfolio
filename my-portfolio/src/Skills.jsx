@@ -1,6 +1,5 @@
 // src/Skills.jsx
 import React from 'react';
-import { Hammer } from 'lucide-react';
 
 const skills = [
   { name: 'React', color: 'text-cyan-300' },
